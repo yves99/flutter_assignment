@@ -98,7 +98,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                             context: context,
                             builder: (context) {
                               return AlertDialog(
-                              content: Text("กรุณาระบุข้อมูลให้ครบถ้วน"));
+                              content: Text("Password mismatch"));
                               }
                             );
                           }

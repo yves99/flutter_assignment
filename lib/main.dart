@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './ui/my_custom_form.dart';
+import './ui/register_page.dart';
 import './ui/home_page.dart';
 
 
@@ -19,7 +20,8 @@ class LoginApp extends StatelessWidget {
       initialRoute: "/",
       routes: {
         "/": (context) => MyCustomForm(),
-        "/second": (context) => HomePage(),
+        "/second": (context) => RegisterScreen(),
+        "/third": (context) => HomePage(),
         // "/detail": (context) => DetailScreen(),
       },
     );
